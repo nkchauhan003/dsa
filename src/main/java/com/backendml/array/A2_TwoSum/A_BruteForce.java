@@ -1,4 +1,4 @@
-package com.backendml.array.A1_TwoSum;
+package com.backendml.array.A2_TwoSum;
 
 import java.util.Arrays;
 
