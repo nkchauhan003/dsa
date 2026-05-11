@@ -1,7 +1,7 @@
 package com.backendml.array.A8_ProductOfArrayExcepSelf;
 
 
-public class B_TwoArrays {
+public class B_ThreeExtraArrays {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
         int[] left = new int[n];
