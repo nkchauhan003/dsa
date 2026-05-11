@@ -1,7 +1,7 @@
 package com.backendml.array.A8_ProductOfArrayExcepSelf;
 
 
-public class B_OneExtraArray {
+public class C_OneExtraArray {
     public int[] productExceptSelf(int[] nums) {
 
         int n = nums.length;
