@@ -1,6 +1,6 @@
 package com.backendml.array.A7_LongestConsecutiveSequence;
 
-public class A_BruteForce_n3 {
+public class A_BruteForce {
     // Check if a specific number exists in the array
     private boolean contains(int[] nums, int target) {
         for (int num : nums) {
