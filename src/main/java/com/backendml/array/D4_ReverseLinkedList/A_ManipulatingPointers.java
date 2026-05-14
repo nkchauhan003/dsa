@@ -5,7 +5,6 @@ public class A_ManipulatingPointers {
         ListNode prev = null;
         ListNode curr = head;
 
-
         while (curr != null) {
             ListNode nextCurr = curr.next;
             curr.next = prev;
