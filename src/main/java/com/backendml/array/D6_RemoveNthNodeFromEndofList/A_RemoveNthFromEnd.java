@@ -1,6 +1,6 @@
 package com.backendml.array.D6_RemoveNthNodeFromEndofList;
 
-public class RemoveNthFromEnd {
+public class A_RemoveNthFromEnd {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         int length = 0;
         ListNode curr = head;
