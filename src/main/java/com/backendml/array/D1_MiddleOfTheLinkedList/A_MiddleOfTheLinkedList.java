@@ -1,6 +1,6 @@
 package com.backendml.array.D1_MiddleOfTheLinkedList;
 
-public class D1_MiddleOfTheLinkedList {
+public class A_MiddleOfTheLinkedList {
     public ListNode middleNode(ListNode head) {
         ListNode slow = head, fast = head;
         while (fast != null && fast.next != null) {
