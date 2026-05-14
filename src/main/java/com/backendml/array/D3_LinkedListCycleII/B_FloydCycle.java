@@ -1,6 +1,6 @@
 package com.backendml.array.D3_LinkedListCycleII;
 
-public class A_FloydCycle {
+public class B_FloydCycle {
     public ListNode detectCycle(ListNode head) {
         ListNode slow = head, fast = head;
         while (fast != null && fast.next != null) {
