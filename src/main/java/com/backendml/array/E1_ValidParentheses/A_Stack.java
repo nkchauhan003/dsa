@@ -1,4 +1,4 @@
-package com.backendml.array.E_ValidParentheses;
+package com.backendml.array.E1_ValidParentheses;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
