@@ -13,15 +13,12 @@ public class A_Stack {
             while (!indexStack.isEmpty() && temperatures[indexStack.peek()] <= temperatures[i]) {
                 indexStack.pop();
             }
-
             // If a warmer day exists in the stack, calculate the day difference
             if (!indexStack.isEmpty()) {
                 result[i] = indexStack.peek() - i;
             }
-
             indexStack.push(i);
         }
-
         return result;
     }
 }
