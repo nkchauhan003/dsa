@@ -1,4 +1,4 @@
-package com.backendml.array.G0_TreeTraversal.BREADTH_FIRST_SEARCH_Level_Order;
+package com.backendml.array.G0_TreeTraversal.BREADTH_FIRST_SEARCH;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
