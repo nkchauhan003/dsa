@@ -1,4 +1,4 @@
-package com.backendml.array.G0_TreeTraversal.DEPTH_FIRST_SEARCH.InOrder;
+package com.backendml.array.G0_TreeTraversal.DEPTH_FIRST_SEARCH.B.InOrder;
 
 import java.util.ArrayList;
 import java.util.List;
