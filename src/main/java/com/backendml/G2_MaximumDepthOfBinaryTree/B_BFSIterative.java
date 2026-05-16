@@ -1,4 +1,4 @@
-package com.backendml.G2_MaximumDepthofBinaryTree;
+package com.backendml.G2_MaximumDepthOfBinaryTree;
 
 import java.util.LinkedList;
 import java.util.Queue;
