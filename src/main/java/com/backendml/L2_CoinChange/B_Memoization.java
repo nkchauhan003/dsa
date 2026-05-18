@@ -8,7 +8,6 @@ public class B_Memoization {
     }
 
     private int calculateMinCoins(int[] coins, int amount, Integer[] memo) {
-
         // Exact amount formed
         if (amount == 0) return 0;
 
