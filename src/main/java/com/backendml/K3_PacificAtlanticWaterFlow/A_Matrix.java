@@ -17,16 +17,19 @@ public class A_Matrix {
         boolean[][] pacific = new boolean[n][m];
         boolean[][] atlantic = new boolean[n][m];
 
+        // Start DFS from the borders of the matrix
         for (int j = 0; j < m; j++) {
             dfs(heights, pacific, 0, j, heights[0][j]);
             dfs(heights, atlantic, n - 1, j, heights[n - 1][j]);
         }
 
+        // Start DFS from the borders of the matrix
         for (int i = 0; i < n; i++) {
             dfs(heights, pacific, i, 0, heights[i][0]);
             dfs(heights, atlantic, i, m - 1, heights[i][m - 1]);
         }
 
+        // Collect cells that can reach both oceans
         for (int j = 0; j < m; j++) {
             for (int i = 0; i < n; i++) {
                 if (pacific[i][j] && atlantic[i][j])
@@ -38,11 +41,14 @@ public class A_Matrix {
 
 
     private void dfs(int[][] heights, boolean[][] ocean, int i, int j, int borderHeight) {
+        // Check if out of bounds, already visited, or if the current cell's height is less than the border height
         if (i < 0 || j < 0 || i >= heights.length || j >= heights[0].length || ocean[i][j] || heights[i][j] < borderHeight)
             return;
 
+        // Mark the current cell as visited for the ocean
         ocean[i][j] = true;
 
+        // Visit all 4 directions
         dfs(heights, ocean, i + 1, j, heights[i][j]);
         dfs(heights, ocean, i - 1, j, heights[i][j]);
         dfs(heights, ocean, i, j + 1, heights[i][j]);
