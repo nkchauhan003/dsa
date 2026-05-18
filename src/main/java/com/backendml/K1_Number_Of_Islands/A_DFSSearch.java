@@ -1,4 +1,4 @@
-package com.backendml.K_Number_Of_Islands;
+package com.backendml.K1_Number_Of_Islands;
 
 public class A_DFSSearch {
     public class NumberOfIslands {
