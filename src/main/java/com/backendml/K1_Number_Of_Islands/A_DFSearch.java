@@ -1,6 +1,6 @@
 package com.backendml.K1_Number_Of_Islands;
 
-public class A_DFSSearch {
+public class A_DFSearch {
     public class NumberOfIslands {
 
         public int numIslands(char[][] grid) {

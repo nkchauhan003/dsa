@@ -1,6 +1,6 @@
 package com.backendml.H2_WordSearch;
 
-public class A_DFSSearch {
+public class A_DFSearch {
     public boolean exist(char[][] board, String word) {
 
         for (int i = 0; i < board.length; i++) {

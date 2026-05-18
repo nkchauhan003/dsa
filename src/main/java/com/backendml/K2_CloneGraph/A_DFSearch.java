@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class A_DFSSearch {
+public class A_DFSearch {
     Map<Node, Node> map = new HashMap<>();
 
     public Node cloneGraph(Node node) {
