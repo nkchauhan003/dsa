@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class A_DFS {
     public boolean validTree(int n, int[][] edges) {
-        // A tree with n nodes must have exactly n - 1 edges
+        // Condition 1: A tree with n nodes must have exactly n - 1 edges
         if (edges.length != n - 1) return false;
 
         // Build adjacency list
