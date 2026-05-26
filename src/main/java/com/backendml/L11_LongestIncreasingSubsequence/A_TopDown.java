@@ -1,6 +1,6 @@
-package com.backendml;
+package com.backendml.L11_LongestIncreasingSubsequence;
 
-public class L11_LongestIncreasingSubsequence {
+public class A_TopDown {
     public int lengthOfLIS(int[] nums) {
         Integer[][] memo = new Integer[nums.length][nums.length + 1];
         return helper(nums, 0, -1, memo);
