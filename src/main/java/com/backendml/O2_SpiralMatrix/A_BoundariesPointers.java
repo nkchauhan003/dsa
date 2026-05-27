@@ -1,4 +1,4 @@
-package com.backendml.O1_SpiralMatrix;
+package com.backendml.O2_SpiralMatrix;
 
 import java.util.ArrayList;
 import java.util.List;
